@@ -34,7 +34,7 @@ export default function App() {
                   name='Navbar'
                   component={Navbar}
                   options={{
-                    title: ''
+                    title: 'Twitter'
                   }}
                   // initialParams={{setLogeado}}
                 />

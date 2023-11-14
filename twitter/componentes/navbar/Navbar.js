@@ -13,9 +13,18 @@ const Navbar = () => {
     return(
         <>
         <Tab.Navigator>
-            <Tab.Screen name='Inicio' component={Inicio} />
-            <Tab.Screen name='Perfil' component={Perfil} />
-            <Tab.Screen name='Chat' component={Chats} />
+            <Tab.Screen 
+                name='Inicio' 
+                component={Inicio} 
+            />
+            <Tab.Screen 
+                name='Chat' 
+                component={Chats} 
+            />
+            <Tab.Screen 
+                name='Perfil' 
+                component={Perfil} 
+            />
         </Tab.Navigator>
         </>
     )
