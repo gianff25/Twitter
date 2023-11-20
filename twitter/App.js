@@ -12,7 +12,7 @@ const Stack = createStackNavigator();
 
 export default function App() {
 
-  const [logeado, setLogeado] = useState(1);
+  const [logeado, setLogeado] = useState(0);
 
   return (
       <NavigationContainer>
