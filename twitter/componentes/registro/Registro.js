@@ -7,8 +7,9 @@ import appFirebase from '../../database/fb';
 import { getFirestore, collection, addDoc } from 'firebase/firestore';
 
 
-const db = getFirestore(appFirebase);
 
+
+const db = getFirestore(appFirebase);
 
 
 function validarObjetoNoVacio(obj) {
