@@ -2,7 +2,7 @@ import { Text } from "react-native";
 
 const Chats = () => {
     return(
-        <Text>Chats</Text>
+        <Text>Hola jas</Text>
     )
 }
 export default Chats;
